@@ -1,0 +1,9 @@
+# requirements.txt — TrashScan AI
+# Install with:  pip install -r requirements.txt
+
+# ── Roboflow Client & Imaging ──────────────────────────────────────────────────
+inference-sdk>=0.9.0             # Roboflow inference API client
+Pillow>=9.5.0                    # Image loading and preprocessing
+
+# ── Web UI ─────────────────────────────────────────────────────────────────────
+streamlit>=1.28.0                # Interactive web interface with camera support
